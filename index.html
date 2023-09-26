@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Now your favorite music is here</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify"><span>Spotify</span></li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h1>Best 10 NSC - No Copyright Songs</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Calypso</span>
+                    <span class="songlistplay"><span class="timestamp">5:00<i id="0"
+                                class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="2">
+                    <span class="songName">Cradless</span>
+                    <span class="songlistplay"><span class="timestamp">5:00<i id="1"
+                                class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="3">
+                    <span class="songName">Despacito</span>
+                    <span class="songlistplay"><span class="timestamp">5:00<i id="2"
+                                class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="4">
+                    <span class="songName">Fight Back</span>
+                    <span class="songlistplay"><span class="timestamp">5:00<i id="3"
+                                class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="5">
+                    <span class="songName">Greateful</span>
+                    <span class="songlistplay"><span class="timestamp">5:00<i id="4"
+                                class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="6">
+                    <span class="songName">Kesariya</span>
+                    <span class="songlistplay"><span class="timestamp">5:00<i id="5"
+                                class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="7">
+                    <span class="songName">Pasoori</span>
+                    <span class="songlistplay"><span class="timestamp">5:00<i id="6"
+                                class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="8">
+                    <span class="songName">RangSari</span>
+                    <span class="songlistplay"><span class="timestamp">5:00<i id="7"
+                                class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="9">
+                    <span class="songName">Savage Love</span>
+                    <span class="songlistplay"><span class="timestamp">5:00<i id="8"
+                                class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="10">
+                    <span class="songName">Stay</span>
+                    <span class="songlistplay"><span class="timestamp">5:00<i id="9"
+                                class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-3x fa-backward-step" id="previous"></i>
+            <i class="fa-solid fa-3x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward-step" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" alt="" width="40px" id="gif">
+            <span id="mastersongName">Calypso</span>
+        </div>
+    </div>
+
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
